@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ViewfoodComponent } from './viewfood/viewfood.component';
 import { SearchRestaurantComponent } from './search-restaurant/search-restaurant.component';
+import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginpageComponent,
     ViewfoodComponent,
-    SearchRestaurantComponent
+    SearchRestaurantComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
